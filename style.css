@@ -1,0 +1,41 @@
+body{
+    background-color:deeppink;
+}
+.container{
+    margin: auto;
+    background-color: white;
+    max-width: 500px;
+    height: 90vh;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 40px;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+#btn{
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: darkorchid;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+
+}
+.imagem{
+    height: 200px;
+    width: 200px;
+}
+.juh{
+    background-image: url(./juuh\ s2.png);
+    max-width: 500px;
+    height: 90vh;
+    background-size: cover; /* Ajusta a imagem ao tamanho do contêiner */
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 2;
+    border-radius: 20px;
+}
